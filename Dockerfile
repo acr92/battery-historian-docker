@@ -2,7 +2,7 @@ FROM ubuntu:16.04
 MAINTAINER Arne-Christian Blystad <arne.christian@blystad.me>
 
 RUN apt-get update
-RUN apt-get install golang openjdk-8-jre-headless git -yy
+RUN apt-get install python golang openjdk-8-jre-headless git -yy
 
 RUN mkdir /go
 ENV GOPATH /go
